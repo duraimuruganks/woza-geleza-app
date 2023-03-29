@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.support {
+  width: 10px;
+  height: 40px;
+}
+.text {
+  font-size: 16px;
+}
+.arrowIcon {
+  align-content: end;
+}
+
+@media screen and (max-width: 1000px) {
+  .arrowIcon {
+    rotate: 90deg;
+  }
+}

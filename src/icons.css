@@ -1,0 +1,62 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 900, "GRAD" 0, "opsz" 48;
+  border: 2px solid red;
+}
+.material-icons {
+}
+.material-icons.search {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.material-icons.noticeArrow {
+  color: white;
+  font-size: 20px;
+}
+.material-icons.back1 {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+}
+.material-icons.subjectSideTitle {
+  font-size: 20px;
+}
+.material-icons.helpToast {
+  font-size: 50px;
+  color: white;
+}
+.material-icons.subjecBtn1 {
+  font-size: 20px;
+  color: white;
+}
+.material-icons.subjecBtn2 {
+  font-size: 25px;
+  color: white;
+}
+.material-icons.subjectContentDownload {
+  font-size: 20px;
+  color: white;
+}
+.material-icons.subjectPdf {
+  font-size: 50px;
+  color: blueviolet;
+}
+.material-icons.filterArrow {
+  font-size: 20px;
+  color: #031795;
+}
+.material-icons.videoClose {
+  color: rgba(43, 226, 116, 0.916);
+  font-size: 40px;
+  cursor: pointer;
+}
+.material-icons.videoClose:hover {
+  color: rgba(43, 226, 116, 0.616);
+  scale: 0.9;
+}
+.material-icons.backArrow {
+  font-size: 30px;
+  rotate: 90deg;
+}
+
+.material-icons .faqExpand {
+  font-size: 30px;
+}

@@ -1,0 +1,34 @@
+.container {
+  margin: 50px 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+.left {
+  flex-basis: 20%;
+  margin-left: 1px;
+}
+.right {
+  flex: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    margin: 50px 10%;
+  }
+  .list {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    margin: 50px 5%;
+  }
+}

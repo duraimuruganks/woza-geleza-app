@@ -1,0 +1,37 @@
+
+[ 
+{
+    "subImage":"./Grades/book.svg",
+    "subTitle":"Maths",
+    "background":"./Photos for Dashboard/Photos for subject/Maths.jpg",
+    "backgroundImage":"linear-gradient(to right, #347ff6, rgba(26, 64, 123, 0))",
+    "link":"/Mathematics"
+},
+{
+    "subImage":"./Grades/beaker.svg",
+    "subTitle":"English",
+    "background":"./Photos for Dashboard/Photos for subject/English.jpg",
+    "backgroundImage":"linear-gradient(to right, rgb(255, 140, 0), rgba(128, 70, 0, 0))",
+    "link":"/English"
+
+}, 
+{
+    "subImage":"./Grades/target.svg",
+    "subTitle":"physical science",
+    "background":"./Photos for Dashboard/Photos for subject/Physical Science.jpg",
+    "backgroundImage":"linear-gradient(to right, rgb(185, 12, 120), rgba(93, 6, 60, 0))",
+    "link":"/Physical-Science"
+
+
+    
+},
+{
+    "subImage":"./Grades/timer.svg",
+    "subTitle":"natural science",
+    "background":"./Photos for Dashboard/Photos for subject/Natural Science.jpg",
+    "backgroundImage":"linear-gradient(to right, rgb(25, 235, 220), rgba(13, 118, 110, 0))",
+    "link":"/Natural Science"
+
+}
+
+]

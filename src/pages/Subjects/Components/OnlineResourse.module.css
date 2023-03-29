@@ -1,0 +1,180 @@
+.oContainer {
+  font-family: var(--font-proxima-nova);
+  line-height: 1.25;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  row-gap: 30px;
+  column-gap: 3%;
+}
+.box,
+.forMultipleColumns {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 3px 10px #00000029;
+  min-width: 300px;
+}
+.box:nth-child(odd) {
+  flex-basis: 38%;
+}
+.box:nth-child(even) {
+  flex-basis: 58%;
+}
+.forMultipleColumns {
+  flex-basis: 31%;
+}
+.img {
+  /* width: 100%; */
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+.bottom {
+  padding: 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* border: 2px solid blue; */
+}
+.heading {
+  font-weight: bold;
+  font-size: 18px;
+}
+.link,
+.para {
+  font-size: 16px;
+  width: auto;
+}
+.para {
+  margin: 20px 0;
+}
+
+.btn1,
+.btn2 {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.btn1 > span,
+.btn2 > span {
+  transition: 0.2s linear;
+}
+.btn1:hover > span,
+.btn2:hover > span {
+  translate: 5px;
+}
+
+.btn1,
+.btn1Box {
+  padding: 5px 15px;
+  font-size: 14px;
+  align-self: flex-end;
+}
+.btn2Box {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn2 {
+  padding: 5px 25px;
+  font-size: 16px;
+  align-self: flex-end;
+}
+
+.bottombox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  /* gap: 30px; */
+}
+.pdfImg {
+  object-fit: contain;
+}
+.pdfImgBox {
+  flex-basis: 25%;
+}
+.downloadButton,
+.downloadBtnBox {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  align-self: flex-end;
+  font-size: 14px;
+}
+.downloadBtnBox {
+  margin-top: 10px;
+}
+.head {
+  flex-basis: 75%;
+  align-self: center;
+}
+.headPdf {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.videobtn {
+  color: white;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.videoBox {
+  /* position: fixed;
+  top: 0;
+  left: 5vw;
+  width: 90vw;
+  height: 100vh; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* border: 1px solid red; */
+  z-index: 999;
+
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  /* zoom: 1.2 !important; */
+}
+.vidcloseBtn {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  z-index: 10;
+}
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: black;
+}
+/* .resize {
+  position: fixed;
+  top: 20px;
+  left: 5vw;
+  width: 90vw;
+  height: 60vh;
+  overflow: auto;
+} */
+@media screen and (max-width: 1000px) {
+  .box,
+  .forMultipleColumns {
+    flex-basis: 100% !important;
+  }
+}

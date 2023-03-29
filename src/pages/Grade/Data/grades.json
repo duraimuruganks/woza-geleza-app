@@ -1,0 +1,17 @@
+[
+{
+    "gradeImg":"./Grades/book.svg",
+    "gradeTitle": 1,
+    "backgroundColor": "#80B1FF"
+},
+{
+    "gradeImg":"./Grades/beaker.svg",
+    "gradeTitle": 2,
+    "backgroundColor": "#F2629B"
+},
+{
+    "gradeImg":"./Grades/target.svg",
+    "gradeTitle": 3,
+    "backgroundColor": "#83E4DD"
+}
+]

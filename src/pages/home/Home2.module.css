@@ -1,0 +1,20 @@
+.notFound {
+  margin: 100px 0;
+}
+
+.searchResult {
+  margin: 0px 10% 50px;
+}
+
+/* .home {
+  position: relative;
+} */
+
+.translateButtonBox {
+  position: fixed !important;
+  top: 150px !important;
+  right: 50px;
+  border: 3px solid red;
+  width: 50px;
+  height: 50px;
+}

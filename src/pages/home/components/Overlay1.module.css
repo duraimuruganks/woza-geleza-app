@@ -1,0 +1,145 @@
+.subtext,
+.text {
+  margin: 0;
+  letter-spacing: 0.4px;
+}
+.text {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: inherit;
+  padding: var(--padding-md) var(--padding-lg) 0 var(--padding-md);
+}
+.subtext {
+  font-size: 13px;
+}
+
+.top,
+.top1,
+.top2,
+.top3,
+.top4,
+.subbox,
+.subbox1,
+.subbox2,
+.subbox3,
+.subbox4 {
+  display: flex;
+  align-items: flex-start;
+}
+.subbox,
+.subbox1,
+.subbox2,
+.subbox3,
+.subbox4 {
+  align-items: center;
+  flex-direction: row;
+  font-size: var(--font-size-xs);
+  height: 25px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-left: 20px;
+}
+.top,
+.top1,
+.top2,
+.top3,
+.top4 {
+  position: relative;
+  border-radius: var(--br-sm);
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 50px;
+  width: 100%;
+}
+.top,
+.top1,
+.top2,
+.top3,
+.top4 {
+  height: 120px;
+}
+.grade1 {
+  margin: 0;
+  letter-spacing: 0.4px;
+  color: #333333;
+  font-size: 20px;
+}
+.box,
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.list {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+}
+.box {
+  align-items: center;
+  gap: var(--gap-2xl);
+  width: 210px;
+}
+
+.firsttwo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-md);
+  overflow: hidden;
+  margin: auto;
+}
+/* .subbox {
+  background-color: var(--color-indigo-200);
+}
+.top {
+  background-color: var(--color-indigo-100);
+}
+.subbox1 {
+  background-color: var(--color-purple-300);
+}
+.top1 {
+  background-color: var(--color-purple-100);
+}
+.subbox2 {
+  background-color: var(--color-orange-200);
+}
+.top2 {
+  background-color: var(--color-orange-100);
+}
+.subbox3 {
+  background-color: var(--color-purple-400);
+}
+
+.top3 {
+  background-color: var(--color-purple-200);
+}
+.top4 {
+  background-color: #70e1d8;
+}
+.subbox4 {
+  background-color: #66c7c0;
+} */
+.overlay1 {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: center;
+  /* align-content: center; */
+  /* align-self: center; */
+  flex-direction: row;
+  /* justify-content: flex-start; */
+  gap: var(--gap-md);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-proxima-nova);
+  width: auto;
+  margin: auto;
+}

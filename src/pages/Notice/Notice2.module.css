@@ -1,0 +1,107 @@
+/* * {
+  font-family: var(--font-proxima-nova) !important;
+} */
+.noticeboard {
+  font-family: var(--font-proxima-nova);
+}
+.headingBox,
+.back {
+  display: flex;
+  flex-direction: row;
+}
+.headingBox {
+  position: relative;
+  width: 100%;
+  justify-content: center;
+}
+.back {
+  align-items: center;
+  align-self: flex-start;
+  position: absolute;
+  left: 10%;
+  top: -100%;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.back:hover {
+  scale: 0.98;
+}
+.backButtonText {
+  font-size: 20px;
+  font-family: var(--font-proxima-nova);
+}
+.ReadMoreContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  row-gap: 30px;
+  font-family: var(--font-proxima-nova) !important;
+}
+.ReadMoreContentLeft {
+  flex-basis: 49%;
+  /* border: 2px dashed blue; */
+}
+.ReadMoreContentLeftDoubleColumn {
+  flex-basis: 100%;
+}
+
+.paraDoubleColumn,
+.paraSingleColumn {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.3;
+  font-family: var(--font-proxima-nova) !important;
+}
+.paraDoubleColumn {
+  column-count: 2;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.3;
+}
+.paraSingleColumn {
+  column-count: 1;
+}
+/* .paraDoubleColumn *,
+.paraSingleColumn * {
+  font-family: var(--font-proxima-nova) !important;
+  font-size: 20px !important;
+  line-height: 1.25 !important;
+} */
+.contentTitle {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.contentDate {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.ReadMoreImgSingleColumn,
+.ReadMoreImgDoubleColumn {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.ReadMoreImgBoxSingleColumn,
+.ReadMoreImgBoxDoubleColumn {
+  flex-basis: 50%;
+  height: 500px;
+  width: 100%;
+  /* border: 1px dashed red; */
+  /* overflow: hidden; */
+}
+.ReadMoreImgBoxDoubleColumn {
+  translate: 50%;
+}
+@media screen and (max-width: 600px) {
+  .paraDoubleColumn {
+    column-count: 1;
+  }
+  .ReadMoreContentLeft,
+  .ReadMoreImgBoxSingleColumn {
+    flex-basis: 100%;
+  }
+}

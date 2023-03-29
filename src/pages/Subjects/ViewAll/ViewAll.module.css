@@ -1,0 +1,62 @@
+.wholeBox {
+  /* width: 100vw; */
+  overflow: hidden;
+  /* width: 99vw; */
+  overflow: hidden;
+  margin: 50px 5%;
+}
+
+.viewContainer {
+  font-family: var(--font-proxima-nova);
+  flex-direction: column;
+  gap: 25px;
+}
+.headingBox,
+.container {
+  display: flex;
+  justify-content: center;
+}
+.headingBox {
+  flex-direction: row;
+}
+.pageNumberTopBox {
+  overflow: hidden;
+  margin: 50px 0 30px;
+}
+.pageNumberBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 10px;
+  justify-content: center;
+}
+.pageNumber {
+  padding: 3px 5px;
+  border: 1px solid rgba(0, 255, 51, 0.742);
+  margin: 0 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.pageNumber:hover {
+  border: 1px solid rgba(0, 255, 51, 0.442);
+  scale: 0.9;
+}
+
+.heading {
+  display: inline;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.viewContentBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.viewContent {
+  flex-basis: 100%;
+  padding: 2px;
+}

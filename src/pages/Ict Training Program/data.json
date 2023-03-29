@@ -1,0 +1,26 @@
+[
+    {
+        "image":"./Company Logos/aws.png",
+        "heading":"AWS Digital Training",
+        "companyLink": "aws.amazon.com/education/awseducate",
+        "content":"Through AWS Educate, students have access to content developed to skill up for cloud careers in growing fields. AWS Educate also connects companies hiring for cloud skills to qualified student job seekers with the AWS Educate Job Board."
+    },
+    {
+        "image":"./Company Logos/cisco.png",
+        "heading":"NetAcad",
+        "companyLink":"www.netacad.com",
+        "content":"Cisco Networking Academy transforms the lives of learners, educators and communities through the power of technology, education and career opportunities. Available to anyone, anywhere."
+    },
+    {
+        "image":"./Company Logos/NetworkingAcademy.png",
+        "heading":"Skills For All",
+        "companyLink":"skillsforall.com",
+        "content":"Skills for All is a free, mobile-first program that delivers leading-edge, personalized learning experiences for wherever you are on your journey. Explore the world of IT through our curated career pathways, self-paced courses, interactive tools, and"
+    },
+    {
+        "image":"./Company Logos/LinkedIn.png",
+        "heading":"LinkedIn",
+        "companyLink":"opportunity.linkedin.com/skills-for-in-d...",
+        "content":"Start developing your skills for free with learning paths from LinkedIn Learning and Microsoft Learn, then practice tech skills in the GitHub Learning Lab."
+    }
+]

@@ -1,0 +1,201 @@
+/* $paraN: 18px;
+$TopHeadingN: 42px;
+$headingN: 24px;
+$linkN: 16px; */
+
+.section {
+  padding: 100px 12%;
+  color: var(--textColor);
+  line-height: 1.5;
+  font-family: var(--font-proxima-nova);
+}
+.titleTop {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+  line-height: 1.5;
+}
+.backButton {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-self: flex-start;
+  cursor: pointer;
+  align-items: center;
+}
+.backButton:hover {
+  /* background-color: rgba(0, 0, 0, 0.159); */
+  border-radius: 5px;
+  scale: 0.98;
+}
+.backArrow {
+  rotate: 270deg;
+  height: 18px;
+}
+.Back {
+  font-size: 18px;
+  color: var(--textColor2);
+  font-family: var(--proxima);
+}
+.Title {
+  font-size: 42px;
+  margin: auto;
+  font-family: var(--proxima);
+}
+.titlePara {
+  text-align: center;
+  margin: 0 5% 80px;
+  font-family: var(--proxima);
+  font-size: 16px;
+  line-height: 1.5;
+}
+.contentBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: 5%;
+}
+.box {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 25px 20px;
+  box-shadow: 0px 3px 10px #00000029;
+  position: relative;
+  justify-content: space-between;
+}
+.imgBox {
+  display: flex;
+  height: 200px;
+  width: 70%;
+  align-self: center;
+  /* margin: auto; */
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.img {
+  object-fit: contain;
+  top: 50%;
+  /* scale: 0.2; */
+}
+.heading {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: var(--proxima);
+}
+.link {
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-family: var(--proxima);
+  overflow-wrap: break-word;
+}
+.paraBox {
+  font-size: 16px;
+  padding-bottom: 40px;
+  font-family: var(--proxima);
+  color: var(--333);
+}
+.btn {
+  font-size: 16px;
+  color: var(--fff);
+  font-family: var(--proxima);
+  border-radius: 5px;
+  align-self: end;
+  padding: 10px 15px;
+}
+.buttonnContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btnArrow {
+  color: white;
+  height: 20px;
+  width: 20px;
+  transition: 0.2s linear;
+}
+.btn:hover .btnArrow {
+  translate: 5px 0;
+}
+.btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-5xl);
+  border-radius: var(--br-sm);
+  width: 100px;
+  height: 40px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+  align-self: self-end;
+}
+
+@media screen and (max-width: 1000px) {
+  .Back {
+    font-size: 16px;
+  }
+  .Title {
+    font-size: 35px;
+  }
+  .titlePara {
+    font-size: 16px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .link {
+    font-size: 16px;
+  }
+  .paraBox {
+    font-size: 16px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Back {
+    font-size: 14px;
+  }
+  .Title {
+    font-size: 25px;
+  }
+  .titlePara {
+    font-size: 14px;
+  }
+  .heading {
+    font-size: 18px;
+  }
+  .link {
+    font-size: 14px;
+  }
+  .paraBox {
+    font-size: 14px;
+  }
+  .btn {
+    font-size: 14px;
+  }
+
+  .box {
+    flex-basis: 100%;
+  }
+  .imgBox {
+    height: 150px;
+  }
+  .titleTop {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

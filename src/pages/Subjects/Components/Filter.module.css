@@ -1,0 +1,56 @@
+.container {
+  margin: 50px 10%;
+  font-family: var(--font-proxima-nova);
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.container,
+.bigBox,
+.goToTerms {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.sideTitle {
+  flex-basis: 10%;
+  font-size: 16px;
+  align-self: center;
+}
+.bigBox {
+  flex-basis: 60%;
+  row-gap: 15px;
+  column-gap: 25px;
+}
+.filterBox,
+.goToTerms {
+  font-size: 16px;
+  padding: 5px 10px;
+  background: white !important;
+  color: #031795;
+  border: 1px solid #031795;
+}
+.goToTerms {
+  gap: 10px;
+}
+.filterArrw {
+  rotate: 90deg;
+  flex-basis: 10%;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .filterBox,
+  .goToTerms {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .filterBox,
+  .goToTerms {
+    font-size: 14px !important;
+  }
+}

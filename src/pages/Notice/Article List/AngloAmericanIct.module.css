@@ -1,0 +1,44 @@
+.container {
+  font-family: var(--font-proxima-nova);
+  margin: 50px 10%;
+  line-height: 1.25;
+}
+.heading {
+  font-size: 25px;
+  font-weight: 600;
+}
+.date {
+  font-size: 20px;
+}
+.content {
+  padding-top: 50px;
+  column-count: 2;
+  column-gap: 40px;
+  line-height: 1.25;
+  font-size: 17px;
+}
+strong {
+  font-weight: 600;
+  opacity: 80%;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    margin: 50px 5%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .content {
+    column-count: 1;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .date {
+    font-size: 16px;
+  }
+  .content {
+    font-size: 14px;
+  }
+}

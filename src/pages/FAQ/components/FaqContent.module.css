@@ -1,0 +1,111 @@
+.title {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.4px;
+  font-weight: 700;
+  font-family: inherit;
+}
+
+.faqcontent {
+  /* align-self: stretch; */
+  display: flex;
+  align-items: center;
+}
+.accordians {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* row-gap: 90px; */
+  /* column-gap: 3%; */
+  align-items: flex-start !important;
+
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; */
+
+  /* column-count: 2; */
+}
+.left,
+.right {
+  flex-basis: 45%;
+  overflow: hidden;
+}
+/* .accordiansLeft {
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+} */
+.accordian {
+  /* box-shadow: 0px 3px 10px 0px #00000029 !important; */
+  background-color: rgb(246, 247, 248);
+  box-shadow: rgb(0 0 0 / 16%) 3px 5px 12px 0px !important;
+  flex-basis: 47%;
+  background-color: #f6f7f8;
+  border: none;
+  outline: none;
+  /* margin: 0 !important; */
+  margin-bottom: 20px;
+  margin-right: 2px;
+  margin-top: 2px;
+  margin-left: 2px;
+
+  /* align-self: stretch; */
+}
+.accordianBox {
+  height: 100%;
+}
+
+.accordianTitleHead {
+  /* height: 60px; */
+  min-height: 75px;
+}
+
+.accordianTitle {
+  font-family: var(--font-proxima-nova);
+  font-weight: bold;
+  font-size: 18px;
+}
+.accordianPara {
+  font-family: var(--font-proxima-nova);
+  font-size: 18px;
+  box-shadow: none;
+}
+
+.faqcontent {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: var(--spacing);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  /* text-align: center; */
+  text-align: left;
+
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-proxima-nova);
+  gap: var(--gap-4xl);
+}
+
+@media screen and (max-width: 800px) {
+  .accordians {
+    flex-direction: column;
+  }
+  .accordian {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: var(--font-size-lg);
+  }
+  .accordianTitle {
+    font-size: 14px;
+  }
+  .accordianPara {
+    font-size: 14px;
+  }
+}

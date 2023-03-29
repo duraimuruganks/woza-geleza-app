@@ -1,0 +1,42 @@
+.container {
+  font-family: var(--font-proxima-nova);
+  margin: 100px 10%;
+}
+.title {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+}
+.flexBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  justify-content: center;
+  column-gap: 2.5%;
+  align-items: stretch;
+  align-content: stretch;
+}
+.flexItem {
+  flex-basis: 18%;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .flexItem {
+    flex-basis: 45%;
+  }
+}

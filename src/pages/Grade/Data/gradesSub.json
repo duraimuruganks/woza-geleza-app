@@ -1,0 +1,28 @@
+ 
+[ 
+    {
+        "subImage":"./Grades/book.svg",
+        "subTitle":"Maths",
+        "background":"./Photos for Dashboard/Photos for subject/Maths.jpg",
+        "backgroundImage":"linear-gradient(to right, #347ff6, rgba(26, 64, 123, 0))",
+        "link":"/Mathematics"
+    },
+    {
+        "subImage":"./Grades/beaker.svg",
+        "subTitle":"English",
+        "background":"./Photos for Dashboard/Photos for subject/English.jpg",
+        "backgroundImage":"linear-gradient(to right, rgb(255, 140, 0), rgba(128, 70, 0, 0))",
+        "link":"/English"
+    }, 
+    {
+        "subImage":"./Grades/target.svg",
+        "subTitle":"Home Language",
+        "background":"./Photos for Dashboard/Photos for subject/Home Language.jpg",
+        "backgroundImage":"linear-gradient(to right, rgb(185, 12, 120), rgba(93, 6, 60, 0))",
+        "link":"/Home-Language"
+    
+    
+        
+    }
+
+]

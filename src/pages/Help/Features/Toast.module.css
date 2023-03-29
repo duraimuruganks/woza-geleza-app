@@ -1,0 +1,53 @@
+/* * {
+  background-color: rgba(0, 0, 255, 0.258);
+} */
+.box {
+  padding: 40px 40px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.tick {
+  background: linear-gradient(90deg, #4b65dc, #ed4264);
+  display: flex;
+  justify-content: center;
+  width: 70px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  left: 50%;
+  align-items: center;
+}
+/* .img {
+  object-fit: contain;
+  width: 100%;
+} */
+.content {
+  color: black;
+  font-size: 20px;
+  line-height: 1.25;
+  font-family: var(--font-proxima-nova);
+  text-align: center;
+}
+.tick,
+.btn {
+  margin: 30px 0;
+}
+.btn {
+  background-color: var(--color-red-100);
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: white;
+}
+.btn:hover {
+  background-color: var(--color-red-200);
+}
+
+@media screen and (max-width: 500px) {
+  .content {
+    font-size: 16px;
+  }
+}

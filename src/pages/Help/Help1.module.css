@@ -1,0 +1,198 @@
+.helpandcontactustitle,
+.helpandcontactustitle11,
+.helpandcontactustitle12 {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-4xl);
+  letter-spacing: 0.4px;
+  line-height: 28px;
+  font-weight: 700;
+  font-family: var(--font-proxima-nova);
+  color: var(--color-gray-400);
+  text-align: center;
+}
+.helpandcontactustitle11,
+.helpandcontactustitle12 {
+  font-size: var(--font-size-base);
+}
+.helpandcontactustitle12 {
+  font-size: var(--font-size-3xs);
+}
+.helpandcontactustitles,
+.helpandcontactustitlesubbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.helpandcontactustitles {
+  gap: var(--gap-4xl);
+}
+.firstname {
+  cursor: pointer;
+}
+.firstname,
+.firstname1 {
+  position: relative;
+  font-size: var(--font-size-6xs);
+  line-height: 28px;
+  font-family: var(--font-proxima-nova);
+  color: var(--color-gray-400);
+  text-align: center;
+}
+.helpandcontactusfirstnamelable {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.firstnameinput {
+  border: 0;
+  background-color: var(--color-gray-100);
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-sm);
+  box-shadow: inset 0 3px 6px #00000029;
+  height: 50px;
+  flex-shrink: 0;
+  overflow: hidden;
+  padding-left: var(--padding-xl);
+  font-size: var(--font-size-4xs);
+  color: var(--color-gray-200);
+}
+.helpandcontactusfirstnamebox {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.helpandcontactusfirstnamelable1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.commentinput {
+  border: 0;
+  background-color: var(--color-gray-100);
+  height: 50px;
+  width: auto;
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-sm);
+  flex-shrink: 0;
+  overflow: hidden;
+  box-shadow: inset 0 3px 6px #00000029;
+  padding-left: var(--padding-xl);
+  resize: none;
+  font-size: var(--font-size-4xs);
+  color: var(--color-gray-200);
+  overflow-y: scroll;
+  box-sizing: border-box;
+  padding-top: 15px;
+}
+
+.helpandcontactusinputbox {
+  width: 1491px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+  max-width: 400px;
+  margin: 0 10%;
+}
+.helpandcontactusbuttontext {
+  position: relative;
+  font-size: var(--font-size-6xs);
+  line-height: 28px;
+  font-family: var(font-proxima-nova);
+  color: var(--color-white);
+  text-align: center;
+}
+.helpandcontactusbutton,
+.helpandcontactusform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.helpandcontactusbutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  /* background: linear-gradient(270deg, #4b66dc82, #ed426485) !important; */
+  background: linear-gradient(90deg, #4b66dc, #ed4264) !important;
+
+  border-radius: var(--br-sm);
+  width: 120px;
+  height: 50px;
+  flex-shrink: 0;
+  /* overflow: hidden; */
+  flex-direction: row;
+}
+.helpandcontactusbutton:hover {
+  background: linear-gradient(270deg, #4b66dce5, #ed4264de) !important;
+}
+.helpandcontactusform {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.help1,
+.helpandcontactus {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.helpandcontactus {
+  align-self: stretch;
+  overflow: hidden;
+  padding: var(--padding-2xs);
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.help1 {
+  position: relative;
+  width: 100%;
+}
+.toast {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  justify-content: center;
+  z-index: 10;
+  padding: 50px 15%;
+  /* border: 2px solid blue; */
+}
+@media screen and (max-width: 600px) {
+  .helpandcontactustitle {
+    font-size: var(--font-size-base);
+  }
+  .helpandcontactustitle11 {
+    font-size: var(--font-size-4xs);
+  }
+  .helpandcontactustitle12 {
+    font-size: var(--font-size-6xs);
+  }
+  .helpandcontactusinputbox {
+    max-width: 300px;
+    margin: 0 10%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .helpandcontactustitle {
+    font-size: var(--font-size-sm);
+  }
+  .helpandcontactustitle11 {
+    font-size: var(--font-size-4xs);
+  }
+  .helpandcontactustitle12 {
+    font-size: var(--font-size-6xs);
+  }
+}

@@ -1,0 +1,83 @@
+.divider,
+.title {
+  position: relative;
+}
+.title {
+  margin: 0;
+  font-size: 42px;
+  letter-spacing: 0.4px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.divider {
+  align-self: stretch;
+  background-color: #707070;
+  height: 1px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.gradebox,
+.gradecontent {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  row-gap: 70px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  row-gap: 80px;
+  column-gap: 3%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.gradebox {
+  align-self: stretch;
+  gap: var(--gap-md);
+  margin: 100px 10%;
+}
+.gradecontent {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  font-size: 32px;
+  color: #000;
+  font-family: var(--font-proxima-nova);
+}
+
+@media screen and (max-width: 1000px) {
+  .gradebox {
+    margin: 50px 5%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .container1 {
+    row-gap: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .gradebox {
+    margin: 50px 10%;
+  }
+  .title {
+    font-size: 25px;
+  }
+}
